@@ -1,0 +1,844 @@
+
+/*general*/
+html, body {
+  margin: 0px;
+  padding: 0px;
+
+  height: auto;
+
+}
+
+.item {
+  width: 100%;
+}
+
+#item1 {
+  height: 77vh;
+  width:100%;
+
+}
+
+#item0, #item1, #item2, #item3 {
+  height: 77vh;
+  width:100%;
+
+
+}
+
+#linkedin {
+  width:auto;
+  height: 55px;
+  margin: 15px;
+}
+
+/*Header*/
+
+header {
+  height:24vh;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+}
+#topnav {
+  width:100%;
+margin: 0px;
+padding: 0px;
+}
+
+
+brand {
+  display:none;
+  width: 50%;
+
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  font-size: 3em;
+  font-family: 'Arbutus', cursive;
+  color:black;
+  text-align: left;
+ background-color: white;
+  }
+
+#marketing {
+  font-size: 1.5em;
+
+  float: right;
+}
+
+#marketing div a {
+  width: 100%;
+  font-size: 1.00em;
+  text-align: center;
+  color: #101010;
+}
+
+#marketing div a:hover {
+ text-decoration: none;
+  color: red;
+}
+
+.right {
+  width: 100%;
+  float:right;
+}
+
+#telephone {
+  float: right;
+}
+
+span {
+  color: #101010;
+  text-align: center;
+  width: 100%;
+}
+
+#home p {
+  font-family: arial;
+  color:white;
+  font-size: 1.3em;
+}
+
+ #bio p {
+   color: black;
+   font-size: 1.2em;
+ }
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
+}
+
+
+
+
+
+  navbar {
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+
+ul {
+  float:left;
+  margin: 0px;
+  width: 100%;
+padding: 0px;
+height: auto;
+}
+
+.navbar-header {
+  width:100%;
+  background-color: white;
+  margin:0px;
+  padding: 15px;
+}
+
+#bs-example-navbar-collapse-1 {
+padding: 0px;
+margin: 0px;
+width:100%;
+}
+
+.navbar li {
+  float:left;
+  text-decoration: none;
+  list-style-type: none;
+  width:16.65%;
+text-align: center;
+background-color: #f2f2f2;
+color: #101010;
+margin: 0px;
+padding: 0px;
+height: 100%;
+font-size: 1.05em;
+}
+
+
+
+
+
+#dropdown--menu {
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2f2f2;
+
+width: auto;
+}
+
+.dropdown-menu>li>a {
+  color:black;
+}
+
+#ddicon {
+  color: red;
+}
+
+#dropdown--menu li {
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+#dropdown--menu li:hover {
+}
+
+#dropdown--menu li a {
+  color: black;
+
+}
+
+#dropdown--menu li a:hover {
+  color: white;
+}
+li a {
+
+  letter-spacing: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+.connect a {
+  color:white;
+
+}
+
+#myCarousel {
+  height: 77vh;
+}
+
+#slide1heading{
+  color: black;
+      margin: 1% 15px;
+      font-size: 4em;
+  color: black;
+}
+
+#connect {
+  height: 93vh;
+}
+
+.navbar li a:focus, .navbar li a:hover,  .dropdown li .open>a:hover
+{
+  background-color: #101010;
+}
+
+.navbar li a:focus, .navbar li a:hover {
+  color:white;
+
+}
+
+
+.connect:hover {
+  color: white;
+}
+
+.col-2-6 ul li {
+  text-decoration: none;
+list-style-type: none;
+text-align: center;
+}
+
+
+
+.nav>li:hover, li:hover {
+  font-weight: bold;
+
+
+}
+
+
+
+nav ul li a {
+color: black;
+width: 100%;
+
+}
+
+
+nav {
+
+  float: right;
+  width: 100%;
+margin:0px;
+padding: 0px;
+
+}
+
+ul li  {
+  text-decoration: none;
+  list-style-type: none;
+  margin:0px;
+  padding: 0px;
+}
+
+/*page*/
+#home, #bio, #contact {
+
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#welcome h2, #welcome p {
+  color: black;
+}
+
+#welcome {
+  height: auto;
+}
+img {
+  padding: 5px 0px;
+  margin: 0px 10px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  max-width: 60px;
+  height: auto;
+  float: left;
+}
+
+.title {
+  font-size: .6em;
+  font-family: Arial;
+  color: black;
+  width: 100%;
+  color: #101010;
+
+}
+
+#logo {
+  float:left;
+  width: 13%;
+}
+
+#design {
+  font-size: 2.5em;
+  letter-spacing: 15px;
+
+}
+
+#slidepic {
+  width: 100%;
+  height: 78vh;
+  margin: 0%;
+  border: 0px;
+}
+
+#logo1 {
+
+  width: 15%;
+  height: 60%;
+  margin: 0px 40% 0px 40%;
+border: 0px;
+
+}
+
+#brandname {
+   float: left;
+
+   padding-right: 15px;
+}
+#name {
+  float:left;
+  width:100%;
+  margin: 0px;
+  color:black;
+}
+
+.main {
+  background-color:rgba(255,255,255,1);
+  height: 100vh;
+}
+
+.page-title {
+  padding: px;
+  margin: 0px;
+  color:white;
+  background-color: black;
+}
+
+.row {
+  width: 100%;
+  height: auto;
+  margin:0px;
+  padding: 0px;
+}
+
+#projects {
+  height: 100vh;
+  padding-top: 13vh;
+}
+
+.pages {
+  margin: 0px;
+  padding-top:13vh;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%:
+}
+
+
+h3 {
+  float:left;
+  width: 100%;
+}
+.ftr-text {
+  color: white;
+}
+#contactinfo {
+  background-color: white;
+  height:75vh;
+}
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  height: auto;
+  width: 100%:
+
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 1.35em;
+}
+
+footer p a {
+  color: green;
+}
+
+footer p a:hover {
+  color:gold;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*responsive*/
+
+
+.col-4-6  {
+  float: left;
+  padding:15px;
+  height: 85vh;
+  width: 66.66%;
+  color: black;
+  background-color: white;
+}
+
+.col-2-6  {
+  float: left;
+  padding-top: 15px;
+  height: 85vh;
+  width: 33.34%;
+  background-color: orange;
+}
+
+.col-2-12 {
+  width: 16.66%;
+  float: left;
+
+}
+
+body {
+  display:none;
+ margin: 0px;
+ padding: 0px;
+  height:300vh;
+
+}
+
+.col-1-2 {
+  width: 50%;
+  float:left;
+}
+
+@media (max-width: 989px){
+
+  body {
+    height: auto;
+  }
+
+#slidepic {
+height: 70vh;
+}
+
+#logo1 {
+
+  width: 20%;
+  height: 40%;
+  margin: 3% 40% 0px 40%;
+border: 0px;
+
+}
+#item0 {
+  height: 77vh;
+  width: 100%;
+}
+  .navbar .navbar-toggle {
+    border: 1px solid #101010;
+    padding: 5px;
+    margin: 5px;
+  }
+  .navbar .navbar-toggle .icon-bar {
+      background-color: black;
+  }
+  #button {
+
+    float: right;
+    padding: 0px;
+  }
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+  #myCarousel {
+  height: 77vh;
+  }
+
+  #item0 {
+   height: 70vh;
+    width:100%;
+
+
+  }
+
+  #slide1heading{
+
+        font-size: 2em;
+
+  }
+.pages {
+  padding-top: 10vh;
+}
+
+#projects {
+  padding-top:0px;
+}
+
+#logo {
+  width: auto;
+}
+
+.pages {
+
+}
+
+#bio {
+color: black;
+
+  margin-bottom: 15px;
+
+}
+
+#contactinfo {
+    background-color: white;
+    height: 35vh;
+}
+
+
+
+brand {
+  font-size:1.75em;
+padding: 0px;
+  width: 86%;
+}
+
+#name {
+  font-size: 1.2em;
+}
+
+#marketing {
+    font-size: 1.5em;
+    float: right;
+    width: 100%;
+    padding: 15px;
+    background-color:#eaeaea;
+}
+
+#marketing div a {
+  text-align: center;
+}
+
+
+
+
+#logo {
+  max-width: 80px;
+}
+
+img {
+  padding: 5px 0px;
+  margin: 5px;
+  border-radius: 4px;
+  border: 2px solid #000000;
+  max-width: 60px;
+  height: auto;
+  float: left;
+}
+
+#brandname {
+    float: left;
+    padding-left: 10px;
+}
+
+#telephone {
+  float: left;
+  text-align: center;
+
+  width: 50%;
+
+}
+
+#email {
+  float:right;
+  text-align: center;
+
+  width: 50%;
+}
+
+.col-4-6  {
+  width:100%;
+  height:auto;
+}
+
+.col-2-6 {
+  width:100%;
+  height: auto;
+}
+
+.title {
+  font-size: .7em;
+  margin:0px;
+  padding:0px;
+}
+
+  .navbar  {
+      display: relative;
+        position: relative;}
+
+
+#bs-example-navbar-collapse-1 {
+padding: 0px;
+margin: 0px;
+width:100%;
+height:100vh;
+transition: .4;
+
+}
+
+    #bs-example-navbar-collapse-1 li {
+      width:100%;
+      height:10vh;
+      margin: 0px;
+      padding: 0px;
+      background-color: white;
+
+    }
+
+    #dropdown--menu{
+     position:relative;
+     top: 0px;
+      margin:0px;
+      padding:0px;
+    }
+
+    #dropdown--menu li {
+
+    }
+
+
+
+#dropdown--menu li a {
+  font-size: 1em;
+  color:black;
+
+}
+
+    footer p {
+      width: 100%;
+    }
+
+
+  }
+
+@media (max-width: 650px){
+
+  #dropdown--menu li {
+      height: auto;
+  }
+
+  brand {
+    height: auto;
+  }
+}
+/*Table*/
+
+marquee {
+  background-color:rgba(0,0,0,0);
+  height: 70vh;
+}
+table {
+  width: 100%;
+
+}
+
+
+tr {
+  margin: 20% 0px;
+  height: 10vh;
+}
+
+h4 {
+  color: black;
+  font-size: 1.25em;
+  letter-spacing: 6px;
+}
+
+td, th {
+  font-size: 1em;
+  color: white;
+}
+#myProgress {
+  border: 3px solid white;
+  background-color: black;
+}
+
+
+.progress-1-20{
+width: 5%;
+height: 30px;
+background-color: green;
+}
+
+.progress-2-20{
+  width: 10%;
+  height: 30px;
+  background-color: green;
+}
+.progress-3-20{
+  width: 15%;
+  height: 30px;
+  background-color: green;
+}
+.progress-4-20{
+  width: 20%;
+  height: 30px;
+  background-color: green;
+}
+.progress-5-20{
+  width: 25%;
+  height: 30px;
+  background-color: green;
+}
+.progress-6-20{
+  width: 30%;
+  height: 30px;
+  background-color: green;
+}
+.progress-7-20{
+  width: 35%;
+  height: 30px;
+  background-color: green;
+}
+.progress-8-20{
+  width: 40%;
+  height: 30px;
+  background-color: green;
+}
+.progress-9-20{
+  width: 45%;
+  height: 30px;
+  background-color: green;
+}
+.progress-10-20{
+  width: 50%;
+  height: 30px;
+  background-color: green;
+}
+.progress-11-20{
+  width: 55%;
+  height: 30px;
+  background-color: green;
+}
+.progress-12-20{
+  width: 60%;
+  height: 30px;
+  background-color: green;
+}
+.progress-13-20{
+  width: 65%;
+  height: 30px;
+  background-color: green;
+}
+.progress-14-20{
+  width: 70%;
+  height: 30px;
+  background-color: green;
+}
+.progress-15-20{
+  width: 80%;
+  height: 30px;
+  background-color: green;
+}
+.progress-16-20{
+  width: 80%;
+  height: 30px;
+  background-color: green;
+}
+.progress-17-20{
+  width: 85%;
+  height: 30px;
+  background-color: green;
+}
+.progress-18-20{
+  width: 90%;
+  height: 30px;
+  background-color: green;
+}
+.progress-19-20{
+  width: 95%;
+  height: 30px;
+  background-color: green;
+}
+.progress-20-20{
+  width: 100%;
+  height: 30px;
+  background-color: green;
+}
